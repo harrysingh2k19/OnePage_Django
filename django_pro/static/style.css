@@ -1,0 +1,93 @@
+.Customer{
+  background-color: #f7f5f5;
+  margin-top: 40px
+}
+.feature{
+  background-color: #f1f1f1;
+  padding: 25px;
+}
+.feature:hover {
+-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         10px 7px 5px 0px rgba(50, 50, 50, 0.75);
+position: relative;
+background-color: #d9cbf7;
+animation: example2 1s;
+}
+.cust:hover {
+-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         10px 7px 5px 0px rgba(50, 50, 50, 0.75);
+position: relative;
+animation: example2 1s;
+}
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+.lato
+{
+  font-family: 'Lato', sans-serif;
+}
+.ide{
+      position: relative;
+      animation: example 2s infinite;
+}
+  .box_div {
+    background-image: linear-gradient(to right,white , #7c7c7c);
+  }
+  .parallax-slide {
+    height: 100vh;
+  }
+  .content-slide {
+    height: 100vh;
+    background: #fff;
+    text-align: center;
+  }
+  div{
+    border-radius: 25px;
+  }
+  span{
+    border-radius: 100% ;
+    background-color: #9087f5;
+    width :80px;
+    height: 80px
+  }
+  h1,h2 {
+    padding-top: 5%;
+    font-family: 'Lato', sans-serif;
+  }
+  #parallax1 {
+    background: url('../static/img9.jpg') no-repeat center;
+    background-attachment: fixed;
+    opacity: 0.7;
+  }
+
+  #parallax2 {
+    background: url('../static/img.jpg') no-repeat center;
+    background-attachment: fixed;
+    opacity: 0.7;
+  }
+  .form_back{
+    background-color: white;
+  }
+  @keyframes example2 {
+    0%   {top: 0px;
+          border-radius: 0px;
+          }
+    50%   {top: -30px;
+          border-radius: 50px;
+            }
+    100%  {top: 0px;
+          border-radius: 20px;
+          }
+  }
+  @keyframes example {
+    0%   {top: 0px;}
+    25%   {top: -20px;}
+    50%   {top: 20px;}
+    100%  {top: 0px;}
+  }
+
+  /* admin = admin 
+  password = admin
+  email = admin@ad.min */
