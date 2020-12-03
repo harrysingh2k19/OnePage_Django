@@ -22,13 +22,19 @@ it will give this kind of output:
 """
 
 System check identified no issues (0 silenced).
+
 December 03, 2020 - 16:19:23
+
 Django version 3.1.3, using settings 'django_pro.settings'
+
 Starting development server at http://127.0.0.1:8000/
+
 Quit the server with CONTROL-C.
+
 """
+
 now open any web browser and go to url:
 
-http://127.0.0.1:8000/
+>http://127.0.0.1:8000/
 
 here it is One Page Project
